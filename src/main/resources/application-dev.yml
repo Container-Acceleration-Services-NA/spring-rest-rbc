@@ -1,0 +1,18 @@
+endpoints:
+  shutdown:
+    enabled: true
+  prometheus:
+    sensitive: false
+shift:
+  rest:
+    disableValidator: true
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /swagger.json
+application:
+  version: v1.0
+greeting:
+  prefix: Dev 
+  suffix: DevSuffix
