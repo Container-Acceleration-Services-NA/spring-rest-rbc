@@ -7,3 +7,11 @@ target
 *.iml
 
 .vscode
+
+# Eclipse generated
+.apt_generated/
+.factorypath
+MANIFEST.MF
+
+# MacOS system files
+.DS_Store
